@@ -1,0 +1,39 @@
+.chatBox {
+  width: 100%;
+  height: 95vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: relative;
+  :global {
+    .ant-list .ant-list-item {
+      display: block;
+    }
+    // .rc-virtual-list-scrollbar {
+    //   display: block !important;
+    // }
+  }
+}
+
+.sendBox {
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.contentBox {
+  display: inline-block;
+  padding: 4px 8px;
+}
+.robotBox {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.88);
+}
+.userBox {
+  background-color: #1677ff;
+  color: #fff;
+  border-radius: 4px;
+}

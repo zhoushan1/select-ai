@@ -1,0 +1,22 @@
+.promptList {
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  height: 360px;
+  padding: 6px;
+  position: relative;
+}
+
+.action {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+.promptItem {
+  margin-bottom: 10px;
+  :global {
+    .ant-btn {
+      width: 100%;
+    }
+  }
+}

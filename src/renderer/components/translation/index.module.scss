@@ -1,0 +1,32 @@
+.translation {
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.actionTitleWrap {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actionTitle {
+  font-weight: bold;
+}
+
+.resultTitle {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.actionWrap {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.promptSetting {
+  display: flex;
+  flex-direction: row;
+}
+
+.promptLeft {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.promptRight {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+}
